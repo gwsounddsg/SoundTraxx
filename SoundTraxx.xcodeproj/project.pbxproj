@@ -164,13 +164,13 @@
 				9A9EEE252AE95531003A8A93 /* Constants.swift */,
 				9A9EEE332AE956E0003A8A93 /* Euler.swift */,
 				9A9EEE292AE955C5003A8A93 /* ModuleUtility.swift */,
+				9A9EEE352AE9571A003A8A93 /* Quaternion.swift */,
 				9A9EEE2B2AE95627003A8A93 /* RTTrP.swift */,
 				9A9EEE2D2AE95650003A8A93 /* RTTrPM.swift */,
 				9A9EEE2F2AE9568A003A8A93 /* Trackable.swift */,
-				9A9EEE272AE95584003A8A93 /* Utility.swift */,
-				9A9EEE352AE9571A003A8A93 /* Quaternion.swift */,
-				9A9EEE392AE9579F003A8A93 /* TrackedPointPosition.swift */,
 				9A9EEE372AE95747003A8A93 /* TrackedPointAccVel.swift */,
+				9A9EEE392AE9579F003A8A93 /* TrackedPointPosition.swift */,
+				9A9EEE272AE95584003A8A93 /* Utility.swift */,
 			);
 			path = RTTrPM;
 			sourceTree = "<group>";
