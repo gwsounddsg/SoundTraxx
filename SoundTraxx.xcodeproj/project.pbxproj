@@ -36,6 +36,7 @@
 		9A9EEE4D2AE95A88003A8A93 /* RTTrP_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEE4C2AE95A88003A8A93 /* RTTrP_Tests.swift */; };
 		9A9EEE4F2AE95AB1003A8A93 /* RTTrPM_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEE4E2AE95AB1003A8A93 /* RTTrPM_Tests.swift */; };
 		9A9EEE512AE95ADD003A8A93 /* TrackableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEE502AE95ADD003A8A93 /* TrackableTests.swift */; };
+		9A9EEE532AE95B0A003A8A93 /* TrackedPointAccVelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEE522AE95B0A003A8A93 /* TrackedPointAccVelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +91,7 @@
 		9A9EEE4C2AE95A88003A8A93 /* RTTrP_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTTrP_Tests.swift; sourceTree = "<group>"; };
 		9A9EEE4E2AE95AB1003A8A93 /* RTTrPM_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTTrPM_Tests.swift; sourceTree = "<group>"; };
 		9A9EEE502AE95ADD003A8A93 /* TrackableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackableTests.swift; sourceTree = "<group>"; };
+		9A9EEE522AE95B0A003A8A93 /* TrackedPointAccVelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackedPointAccVelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -209,6 +211,7 @@
 				9A9EEE4C2AE95A88003A8A93 /* RTTrP_Tests.swift */,
 				9A9EEE4E2AE95AB1003A8A93 /* RTTrPM_Tests.swift */,
 				9A9EEE502AE95ADD003A8A93 /* TrackableTests.swift */,
+				9A9EEE522AE95B0A003A8A93 /* TrackedPointAccVelTests.swift */,
 			);
 			path = RTTrPM;
 			sourceTree = "<group>";
@@ -373,6 +376,7 @@
 				9A9EEE412AE95926003A8A93 /* TestExtensions.swift in Sources */,
 				9A9EEE492AE95A24003A8A93 /* FullTests.swift in Sources */,
 				9A9EEE4F2AE95AB1003A8A93 /* RTTrPM_Tests.swift in Sources */,
+				9A9EEE532AE95B0A003A8A93 /* TrackedPointAccVelTests.swift in Sources */,
 				9A9EEE512AE95ADD003A8A93 /* TrackableTests.swift in Sources */,
 				9A9EEE3D2AE95832003A8A93 /* TestConstants.swift in Sources */,
 			);
