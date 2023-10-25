@@ -204,7 +204,6 @@
 		9A9EEE3B2AE95818003A8A93 /* RTTrPM */ = {
 			isa = PBXGroup;
 			children = (
-				9A9EEE3C2AE95832003A8A93 /* TestConstants.swift */,
 				9A9EEE422AE95969003A8A93 /* CentroidAccVelTests.swift */,
 				9A9EEE442AE959B8003A8A93 /* CentroidPositionTests.swift */,
 				9A9EEE462AE959F1003A8A93 /* EulerTests.swift */,
@@ -212,6 +211,7 @@
 				9A9EEE4A2AE95A54003A8A93 /* QuaternionTests.swift */,
 				9A9EEE4C2AE95A88003A8A93 /* RTTrP_Tests.swift */,
 				9A9EEE4E2AE95AB1003A8A93 /* RTTrPM_Tests.swift */,
+				9A9EEE3C2AE95832003A8A93 /* TestConstants.swift */,
 				9A9EEE502AE95ADD003A8A93 /* TrackableTests.swift */,
 				9A9EEE522AE95B0A003A8A93 /* TrackedPointAccVelTests.swift */,
 				9A9EEE542AE95B40003A8A93 /* TrackedPointPositionTests.swift */,
