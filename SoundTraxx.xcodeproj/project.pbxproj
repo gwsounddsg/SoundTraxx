@@ -37,6 +37,7 @@
 		9A9EEE4F2AE95AB1003A8A93 /* RTTrPM_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEE4E2AE95AB1003A8A93 /* RTTrPM_Tests.swift */; };
 		9A9EEE512AE95ADD003A8A93 /* TrackableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEE502AE95ADD003A8A93 /* TrackableTests.swift */; };
 		9A9EEE532AE95B0A003A8A93 /* TrackedPointAccVelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEE522AE95B0A003A8A93 /* TrackedPointAccVelTests.swift */; };
+		9A9EEE552AE95B40003A8A93 /* TrackedPointPositionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEE542AE95B40003A8A93 /* TrackedPointPositionTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,6 +93,7 @@
 		9A9EEE4E2AE95AB1003A8A93 /* RTTrPM_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTTrPM_Tests.swift; sourceTree = "<group>"; };
 		9A9EEE502AE95ADD003A8A93 /* TrackableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackableTests.swift; sourceTree = "<group>"; };
 		9A9EEE522AE95B0A003A8A93 /* TrackedPointAccVelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackedPointAccVelTests.swift; sourceTree = "<group>"; };
+		9A9EEE542AE95B40003A8A93 /* TrackedPointPositionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackedPointPositionTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,6 +214,7 @@
 				9A9EEE4E2AE95AB1003A8A93 /* RTTrPM_Tests.swift */,
 				9A9EEE502AE95ADD003A8A93 /* TrackableTests.swift */,
 				9A9EEE522AE95B0A003A8A93 /* TrackedPointAccVelTests.swift */,
+				9A9EEE542AE95B40003A8A93 /* TrackedPointPositionTests.swift */,
 			);
 			path = RTTrPM;
 			sourceTree = "<group>";
@@ -373,6 +376,7 @@
 				9A9EEE092AE94FF7003A8A93 /* SoundTraxxTests.swift in Sources */,
 				9A9EEE432AE95969003A8A93 /* CentroidAccVelTests.swift in Sources */,
 				9A9EEE472AE959F1003A8A93 /* EulerTests.swift in Sources */,
+				9A9EEE552AE95B40003A8A93 /* TrackedPointPositionTests.swift in Sources */,
 				9A9EEE412AE95926003A8A93 /* TestExtensions.swift in Sources */,
 				9A9EEE492AE95A24003A8A93 /* FullTests.swift in Sources */,
 				9A9EEE4F2AE95AB1003A8A93 /* RTTrPM_Tests.swift in Sources */,
