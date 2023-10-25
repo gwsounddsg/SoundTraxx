@@ -31,6 +31,7 @@
 		9A9EEE432AE95969003A8A93 /* CentroidAccVelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEE422AE95969003A8A93 /* CentroidAccVelTests.swift */; };
 		9A9EEE452AE959B8003A8A93 /* CentroidPositionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEE442AE959B8003A8A93 /* CentroidPositionTests.swift */; };
 		9A9EEE472AE959F1003A8A93 /* EulerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEE462AE959F1003A8A93 /* EulerTests.swift */; };
+		9A9EEE492AE95A24003A8A93 /* FullTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEE482AE95A24003A8A93 /* FullTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,7 @@
 		9A9EEE422AE95969003A8A93 /* CentroidAccVelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CentroidAccVelTests.swift; sourceTree = "<group>"; };
 		9A9EEE442AE959B8003A8A93 /* CentroidPositionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CentroidPositionTests.swift; sourceTree = "<group>"; };
 		9A9EEE462AE959F1003A8A93 /* EulerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EulerTests.swift; sourceTree = "<group>"; };
+		9A9EEE482AE95A24003A8A93 /* FullTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,6 +196,7 @@
 				9A9EEE422AE95969003A8A93 /* CentroidAccVelTests.swift */,
 				9A9EEE442AE959B8003A8A93 /* CentroidPositionTests.swift */,
 				9A9EEE462AE959F1003A8A93 /* EulerTests.swift */,
+				9A9EEE482AE95A24003A8A93 /* FullTests.swift */,
 			);
 			path = RTTrPM;
 			sourceTree = "<group>";
@@ -354,6 +357,7 @@
 				9A9EEE432AE95969003A8A93 /* CentroidAccVelTests.swift in Sources */,
 				9A9EEE472AE959F1003A8A93 /* EulerTests.swift in Sources */,
 				9A9EEE412AE95926003A8A93 /* TestExtensions.swift in Sources */,
+				9A9EEE492AE95A24003A8A93 /* FullTests.swift in Sources */,
 				9A9EEE3D2AE95832003A8A93 /* TestConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
