@@ -29,6 +29,7 @@
 		9A9EEE3D2AE95832003A8A93 /* TestConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEE3C2AE95832003A8A93 /* TestConstants.swift */; };
 		9A9EEE412AE95926003A8A93 /* TestExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEE402AE95926003A8A93 /* TestExtensions.swift */; };
 		9A9EEE432AE95969003A8A93 /* CentroidAccVelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEE422AE95969003A8A93 /* CentroidAccVelTests.swift */; };
+		9A9EEE452AE959B8003A8A93 /* CentroidPositionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEE442AE959B8003A8A93 /* CentroidPositionTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +77,7 @@
 		9A9EEE3C2AE95832003A8A93 /* TestConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestConstants.swift; sourceTree = "<group>"; };
 		9A9EEE402AE95926003A8A93 /* TestExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestExtensions.swift; sourceTree = "<group>"; };
 		9A9EEE422AE95969003A8A93 /* CentroidAccVelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CentroidAccVelTests.swift; sourceTree = "<group>"; };
+		9A9EEE442AE959B8003A8A93 /* CentroidPositionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CentroidPositionTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +190,7 @@
 			children = (
 				9A9EEE3C2AE95832003A8A93 /* TestConstants.swift */,
 				9A9EEE422AE95969003A8A93 /* CentroidAccVelTests.swift */,
+				9A9EEE442AE959B8003A8A93 /* CentroidPositionTests.swift */,
 			);
 			path = RTTrPM;
 			sourceTree = "<group>";
@@ -343,6 +346,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A9EEE452AE959B8003A8A93 /* CentroidPositionTests.swift in Sources */,
 				9A9EEE092AE94FF7003A8A93 /* SoundTraxxTests.swift in Sources */,
 				9A9EEE432AE95969003A8A93 /* CentroidAccVelTests.swift in Sources */,
 				9A9EEE412AE95926003A8A93 /* TestExtensions.swift in Sources */,
