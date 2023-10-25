@@ -46,6 +46,7 @@
 		9A9EEE692AE96D3F003A8A93 /* OscMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEE682AE96D3F003A8A93 /* OscMessage.swift */; };
 		9A9EEE6B2AE96D80003A8A93 /* OscErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEE6A2AE96D80003A8A93 /* OscErrors.swift */; };
 		9A9EEE6D2AE96DA6003A8A93 /* OscParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEE6C2AE96DA6003A8A93 /* OscParsing.swift */; };
+		9A9EEE6F2AE96E12003A8A93 /* OscBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEE6E2AE96E12003A8A93 /* OscBundle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,6 +111,7 @@
 		9A9EEE682AE96D3F003A8A93 /* OscMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OscMessage.swift; sourceTree = "<group>"; };
 		9A9EEE6A2AE96D80003A8A93 /* OscErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OscErrors.swift; sourceTree = "<group>"; };
 		9A9EEE6C2AE96DA6003A8A93 /* OscParsing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OscParsing.swift; sourceTree = "<group>"; };
+		9A9EEE6E2AE96E12003A8A93 /* OscBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OscBundle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -243,6 +245,7 @@
 				9A9EEE682AE96D3F003A8A93 /* OscMessage.swift */,
 				9A9EEE6A2AE96D80003A8A93 /* OscErrors.swift */,
 				9A9EEE6C2AE96DA6003A8A93 /* OscParsing.swift */,
+				9A9EEE6E2AE96E12003A8A93 /* OscBundle.swift */,
 			);
 			path = OSC;
 			sourceTree = "<group>";
@@ -390,6 +393,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A9EEE5F2AE96BAA003A8A93 /* OscTag.swift in Sources */,
+				9A9EEE6F2AE96E12003A8A93 /* OscBundle.swift in Sources */,
 				9A9EEE3A2AE9579F003A8A93 /* TrackedPointPosition.swift in Sources */,
 				9A9EEE2E2AE95650003A8A93 /* RTTrPM.swift in Sources */,
 				9A9EEE282AE95584003A8A93 /* Utility.swift in Sources */,

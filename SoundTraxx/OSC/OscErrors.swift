@@ -15,6 +15,6 @@ enum OscError: Error {
     case argumentsNotValid
 
     enum Bundle: Error {
-        case invalidOSCPacketReceived(String)
+        case invalidOscPacketReceived(String)
     }
 }
