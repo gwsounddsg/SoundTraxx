@@ -9,7 +9,7 @@ import Foundation
 
 
 
-enum OSCError: Error {
+enum OscError: Error {
     case addressNotValid
     case typeTagNotValid
     case argumentsNotValid

@@ -45,6 +45,7 @@
 		9A9EEE672AE96CD7003A8A93 /* Blob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEE662AE96CD7003A8A93 /* Blob.swift */; };
 		9A9EEE692AE96D3F003A8A93 /* OscMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEE682AE96D3F003A8A93 /* OscMessage.swift */; };
 		9A9EEE6B2AE96D80003A8A93 /* OscErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEE6A2AE96D80003A8A93 /* OscErrors.swift */; };
+		9A9EEE6D2AE96DA6003A8A93 /* OscParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEE6C2AE96DA6003A8A93 /* OscParsing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -108,6 +109,7 @@
 		9A9EEE662AE96CD7003A8A93 /* Blob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blob.swift; sourceTree = "<group>"; };
 		9A9EEE682AE96D3F003A8A93 /* OscMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OscMessage.swift; sourceTree = "<group>"; };
 		9A9EEE6A2AE96D80003A8A93 /* OscErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OscErrors.swift; sourceTree = "<group>"; };
+		9A9EEE6C2AE96DA6003A8A93 /* OscParsing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OscParsing.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -240,6 +242,7 @@
 				9A9EEE572AE96983003A8A93 /* OscExtensions.swift */,
 				9A9EEE682AE96D3F003A8A93 /* OscMessage.swift */,
 				9A9EEE6A2AE96D80003A8A93 /* OscErrors.swift */,
+				9A9EEE6C2AE96DA6003A8A93 /* OscParsing.swift */,
 			);
 			path = OSC;
 			sourceTree = "<group>";
@@ -406,6 +409,7 @@
 				9A9EEE242AE954DA003A8A93 /* CentroidAccVel.swift in Sources */,
 				9A9EEE382AE95747003A8A93 /* TrackedPointAccVel.swift in Sources */,
 				9A9EEE262AE95531003A8A93 /* Constants.swift in Sources */,
+				9A9EEE6D2AE96DA6003A8A93 /* OscParsing.swift in Sources */,
 				9A9EEE652AE96CBC003A8A93 /* OscElement.swift in Sources */,
 				9A9EEE5D2AE96AE4003A8A93 /* OscType.swift in Sources */,
 			);
