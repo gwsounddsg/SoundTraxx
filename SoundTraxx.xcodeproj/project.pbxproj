@@ -241,11 +241,11 @@
 		9A9EEE592AE96AA3003A8A93 /* Type */ = {
 			isa = PBXGroup;
 			children = (
-				9A9EEE5C2AE96AE4003A8A93 /* OscType.swift */,
-				9A9EEE5E2AE96BAA003A8A93 /* OscTag.swift */,
-				9A9EEE622AE96C9B003A8A93 /* Timetag.swift */,
-				9A9EEE642AE96CBC003A8A93 /* OscElement.swift */,
 				9A9EEE662AE96CD7003A8A93 /* Blob.swift */,
+				9A9EEE642AE96CBC003A8A93 /* OscElement.swift */,
+				9A9EEE5E2AE96BAA003A8A93 /* OscTag.swift */,
+				9A9EEE5C2AE96AE4003A8A93 /* OscType.swift */,
+				9A9EEE622AE96C9B003A8A93 /* Timetag.swift */,
 			);
 			path = Type;
 			sourceTree = "<group>";
