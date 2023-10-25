@@ -43,6 +43,7 @@
 		9A9EEE632AE96C9B003A8A93 /* Timetag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEE622AE96C9B003A8A93 /* Timetag.swift */; };
 		9A9EEE652AE96CBC003A8A93 /* OscElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEE642AE96CBC003A8A93 /* OscElement.swift */; };
 		9A9EEE672AE96CD7003A8A93 /* Blob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEE662AE96CD7003A8A93 /* Blob.swift */; };
+		9A9EEE692AE96D3F003A8A93 /* OscMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEE682AE96D3F003A8A93 /* OscMessage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,6 +105,7 @@
 		9A9EEE622AE96C9B003A8A93 /* Timetag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timetag.swift; sourceTree = "<group>"; };
 		9A9EEE642AE96CBC003A8A93 /* OscElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OscElement.swift; sourceTree = "<group>"; };
 		9A9EEE662AE96CD7003A8A93 /* Blob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blob.swift; sourceTree = "<group>"; };
+		9A9EEE682AE96D3F003A8A93 /* OscMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OscMessage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -234,6 +236,7 @@
 			children = (
 				9A9EEE592AE96AA3003A8A93 /* Type */,
 				9A9EEE572AE96983003A8A93 /* OscExtensions.swift */,
+				9A9EEE682AE96D3F003A8A93 /* OscMessage.swift */,
 			);
 			path = OSC;
 			sourceTree = "<group>";
@@ -390,6 +393,7 @@
 				9A9EEE632AE96C9B003A8A93 /* Timetag.swift in Sources */,
 				9A9EEE302AE9568A003A8A93 /* Trackable.swift in Sources */,
 				9A9EEE2C2AE95627003A8A93 /* RTTrP.swift in Sources */,
+				9A9EEE692AE96D3F003A8A93 /* OscMessage.swift in Sources */,
 				9A9EEDF92AE94FF6003A8A93 /* ContentView.swift in Sources */,
 				9A9EEE2A2AE955C5003A8A93 /* ModuleUtility.swift in Sources */,
 				9A9EEE672AE96CD7003A8A93 /* Blob.swift in Sources */,
