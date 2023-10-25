@@ -8,8 +8,8 @@
 import Foundation
 
 
-extension Bool: OSCType {
-    public var tag: OSCTag {
+extension Bool: OscType {
+    public var tag: OscTag {
         get {
             return self ? .boolTrue : .boolFalse
         }
