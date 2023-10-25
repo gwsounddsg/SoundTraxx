@@ -40,6 +40,7 @@
 		9A9EEE582AE96983003A8A93 /* OscExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEE572AE96983003A8A93 /* OscExtensions.swift */; };
 		9A9EEE5D2AE96AE4003A8A93 /* OscType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEE5C2AE96AE4003A8A93 /* OscType.swift */; };
 		9A9EEE5F2AE96BAA003A8A93 /* OscTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEE5E2AE96BAA003A8A93 /* OscTag.swift */; };
+		9A9EEE632AE96C9B003A8A93 /* Timetag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEE622AE96C9B003A8A93 /* Timetag.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,6 +99,7 @@
 		9A9EEE572AE96983003A8A93 /* OscExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OscExtensions.swift; sourceTree = "<group>"; };
 		9A9EEE5C2AE96AE4003A8A93 /* OscType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OscType.swift; sourceTree = "<group>"; };
 		9A9EEE5E2AE96BAA003A8A93 /* OscTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OscTag.swift; sourceTree = "<group>"; };
+		9A9EEE622AE96C9B003A8A93 /* Timetag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timetag.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -237,6 +239,7 @@
 			children = (
 				9A9EEE5C2AE96AE4003A8A93 /* OscType.swift */,
 				9A9EEE5E2AE96BAA003A8A93 /* OscTag.swift */,
+				9A9EEE622AE96C9B003A8A93 /* Timetag.swift */,
 			);
 			path = Type;
 			sourceTree = "<group>";
@@ -378,6 +381,7 @@
 				9A9EEE582AE96983003A8A93 /* OscExtensions.swift in Sources */,
 				9A9EEE322AE956B6003A8A93 /* CentroidPosition.swift in Sources */,
 				9A9EEE342AE956E0003A8A93 /* Euler.swift in Sources */,
+				9A9EEE632AE96C9B003A8A93 /* Timetag.swift in Sources */,
 				9A9EEE302AE9568A003A8A93 /* Trackable.swift in Sources */,
 				9A9EEE2C2AE95627003A8A93 /* RTTrP.swift in Sources */,
 				9A9EEDF92AE94FF6003A8A93 /* ContentView.swift in Sources */,
