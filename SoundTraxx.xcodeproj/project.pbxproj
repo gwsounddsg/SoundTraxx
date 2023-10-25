@@ -37,6 +37,7 @@
 		9A9EEE512AE95ADD003A8A93 /* TrackableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEE502AE95ADD003A8A93 /* TrackableTests.swift */; };
 		9A9EEE532AE95B0A003A8A93 /* TrackedPointAccVelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEE522AE95B0A003A8A93 /* TrackedPointAccVelTests.swift */; };
 		9A9EEE552AE95B40003A8A93 /* TrackedPointPositionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEE542AE95B40003A8A93 /* TrackedPointPositionTests.swift */; };
+		9A9EEE582AE96983003A8A93 /* OscExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEE572AE96983003A8A93 /* OscExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,6 +93,7 @@
 		9A9EEE502AE95ADD003A8A93 /* TrackableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackableTests.swift; sourceTree = "<group>"; };
 		9A9EEE522AE95B0A003A8A93 /* TrackedPointAccVelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackedPointAccVelTests.swift; sourceTree = "<group>"; };
 		9A9EEE542AE95B40003A8A93 /* TrackedPointPositionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackedPointPositionTests.swift; sourceTree = "<group>"; };
+		9A9EEE572AE96983003A8A93 /* OscExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OscExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 		9A9EEDF52AE94FF6003A8A93 /* SoundTraxx */ = {
 			isa = PBXGroup;
 			children = (
+				9A9EEE562AE9696A003A8A93 /* OSC */,
 				9A9EEE222AE954B2003A8A93 /* RTTrPM */,
 				9A9EEDF62AE94FF6003A8A93 /* SoundTraxxApp.swift */,
 				9A9EEDF82AE94FF6003A8A93 /* ContentView.swift */,
@@ -214,6 +217,14 @@
 				9A9EEE542AE95B40003A8A93 /* TrackedPointPositionTests.swift */,
 			);
 			path = RTTrPM;
+			sourceTree = "<group>";
+		};
+		9A9EEE562AE9696A003A8A93 /* OSC */ = {
+			isa = PBXGroup;
+			children = (
+				9A9EEE572AE96983003A8A93 /* OscExtensions.swift */,
+			);
+			path = OSC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -349,6 +360,7 @@
 				9A9EEE3A2AE9579F003A8A93 /* TrackedPointPosition.swift in Sources */,
 				9A9EEE2E2AE95650003A8A93 /* RTTrPM.swift in Sources */,
 				9A9EEE282AE95584003A8A93 /* Utility.swift in Sources */,
+				9A9EEE582AE96983003A8A93 /* OscExtensions.swift in Sources */,
 				9A9EEE322AE956B6003A8A93 /* CentroidPosition.swift in Sources */,
 				9A9EEE342AE956E0003A8A93 /* Euler.swift in Sources */,
 				9A9EEE302AE9568A003A8A93 /* Trackable.swift in Sources */,
