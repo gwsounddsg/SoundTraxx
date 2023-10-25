@@ -11,7 +11,6 @@
 		9A9EEDF92AE94FF6003A8A93 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEDF82AE94FF6003A8A93 /* ContentView.swift */; };
 		9A9EEDFB2AE94FF7003A8A93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A9EEDFA2AE94FF7003A8A93 /* Assets.xcassets */; };
 		9A9EEDFF2AE94FF7003A8A93 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A9EEDFE2AE94FF7003A8A93 /* Preview Assets.xcassets */; };
-		9A9EEE092AE94FF7003A8A93 /* SoundTraxxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEE082AE94FF7003A8A93 /* SoundTraxxTests.swift */; };
 		9A9EEE132AE94FF7003A8A93 /* SoundTraxxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEE122AE94FF7003A8A93 /* SoundTraxxUITests.swift */; };
 		9A9EEE152AE94FF7003A8A93 /* SoundTraxxUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEE142AE94FF7003A8A93 /* SoundTraxxUITestsLaunchTests.swift */; };
 		9A9EEE242AE954DA003A8A93 /* CentroidAccVel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEE232AE954DA003A8A93 /* CentroidAccVel.swift */; };
@@ -65,7 +64,6 @@
 		9A9EEDFC2AE94FF7003A8A93 /* SoundTraxx.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SoundTraxx.entitlements; sourceTree = "<group>"; };
 		9A9EEDFE2AE94FF7003A8A93 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9A9EEE042AE94FF7003A8A93 /* SoundTraxxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundTraxxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A9EEE082AE94FF7003A8A93 /* SoundTraxxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundTraxxTests.swift; sourceTree = "<group>"; };
 		9A9EEE0E2AE94FF7003A8A93 /* SoundTraxxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundTraxxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A9EEE122AE94FF7003A8A93 /* SoundTraxxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundTraxxUITests.swift; sourceTree = "<group>"; };
 		9A9EEE142AE94FF7003A8A93 /* SoundTraxxUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundTraxxUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -168,7 +166,6 @@
 			children = (
 				9A9EEE402AE95926003A8A93 /* TestExtensions.swift */,
 				9A9EEE3B2AE95818003A8A93 /* RTTrPM */,
-				9A9EEE082AE94FF7003A8A93 /* SoundTraxxTests.swift */,
 			);
 			path = SoundTraxxTests;
 			sourceTree = "<group>";
@@ -373,7 +370,6 @@
 				9A9EEE4D2AE95A88003A8A93 /* RTTrP_Tests.swift in Sources */,
 				9A9EEE452AE959B8003A8A93 /* CentroidPositionTests.swift in Sources */,
 				9A9EEE4B2AE95A54003A8A93 /* QuaternionTests.swift in Sources */,
-				9A9EEE092AE94FF7003A8A93 /* SoundTraxxTests.swift in Sources */,
 				9A9EEE432AE95969003A8A93 /* CentroidAccVelTests.swift in Sources */,
 				9A9EEE472AE959F1003A8A93 /* EulerTests.swift in Sources */,
 				9A9EEE552AE95B40003A8A93 /* TrackedPointPositionTests.swift in Sources */,
