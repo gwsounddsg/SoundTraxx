@@ -38,6 +38,7 @@
 		9A9EEE532AE95B0A003A8A93 /* TrackedPointAccVelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEE522AE95B0A003A8A93 /* TrackedPointAccVelTests.swift */; };
 		9A9EEE552AE95B40003A8A93 /* TrackedPointPositionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEE542AE95B40003A8A93 /* TrackedPointPositionTests.swift */; };
 		9A9EEE582AE96983003A8A93 /* OscExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEE572AE96983003A8A93 /* OscExtensions.swift */; };
+		9A9EEE5D2AE96AE4003A8A93 /* OscType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEE5C2AE96AE4003A8A93 /* OscType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +95,7 @@
 		9A9EEE522AE95B0A003A8A93 /* TrackedPointAccVelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackedPointAccVelTests.swift; sourceTree = "<group>"; };
 		9A9EEE542AE95B40003A8A93 /* TrackedPointPositionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackedPointPositionTests.swift; sourceTree = "<group>"; };
 		9A9EEE572AE96983003A8A93 /* OscExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OscExtensions.swift; sourceTree = "<group>"; };
+		9A9EEE5C2AE96AE4003A8A93 /* OscType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OscType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -222,9 +224,18 @@
 		9A9EEE562AE9696A003A8A93 /* OSC */ = {
 			isa = PBXGroup;
 			children = (
+				9A9EEE592AE96AA3003A8A93 /* Type */,
 				9A9EEE572AE96983003A8A93 /* OscExtensions.swift */,
 			);
 			path = OSC;
+			sourceTree = "<group>";
+		};
+		9A9EEE592AE96AA3003A8A93 /* Type */ = {
+			isa = PBXGroup;
+			children = (
+				9A9EEE5C2AE96AE4003A8A93 /* OscType.swift */,
+			);
+			path = Type;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -372,6 +383,7 @@
 				9A9EEE242AE954DA003A8A93 /* CentroidAccVel.swift in Sources */,
 				9A9EEE382AE95747003A8A93 /* TrackedPointAccVel.swift in Sources */,
 				9A9EEE262AE95531003A8A93 /* Constants.swift in Sources */,
+				9A9EEE5D2AE96AE4003A8A93 /* OscType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
