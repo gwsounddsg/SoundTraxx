@@ -49,8 +49,8 @@ extension Date {
 }
 
 
-extension Double: OSCType {
-    public var tag: OSCTag {
+extension Double: OscType {
+    public var tag: OscTag {
         get { return .float }
     }
 
@@ -61,8 +61,8 @@ extension Double: OSCType {
 }
 
 
-extension Float: OSCType {
-    public var tag: OSCTag {
+extension Float: OscType {
+    public var tag: OscTag {
         get { return .float }
     }
 
@@ -79,8 +79,8 @@ extension Float: OSCType {
 }
 
 
-extension Int: OSCType {
-    public var tag: OSCTag {
+extension Int: OscType {
+    public var tag: OscTag {
         get { return .int }
     }
 
@@ -106,8 +106,8 @@ extension Int32 {
 }
 
 
-extension String: OSCType {
-    public var tag: OSCTag {
+extension String: OscType {
+    public var tag: OscTag {
         get { return .string }
     }
 
