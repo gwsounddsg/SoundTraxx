@@ -17,6 +17,7 @@
 		9A9EEE242AE954DA003A8A93 /* CentroidAccVel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEE232AE954DA003A8A93 /* CentroidAccVel.swift */; };
 		9A9EEE262AE95531003A8A93 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEE252AE95531003A8A93 /* Constants.swift */; };
 		9A9EEE282AE95584003A8A93 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEE272AE95584003A8A93 /* Utility.swift */; };
+		9A9EEE2A2AE955C5003A8A93 /* ModuleUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEE292AE955C5003A8A93 /* ModuleUtility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		9A9EEE232AE954DA003A8A93 /* CentroidAccVel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CentroidAccVel.swift; sourceTree = "<group>"; };
 		9A9EEE252AE95531003A8A93 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		9A9EEE272AE95584003A8A93 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		9A9EEE292AE955C5003A8A93 /* ModuleUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleUtility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +146,7 @@
 				9A9EEE232AE954DA003A8A93 /* CentroidAccVel.swift */,
 				9A9EEE252AE95531003A8A93 /* Constants.swift */,
 				9A9EEE272AE95584003A8A93 /* Utility.swift */,
+				9A9EEE292AE955C5003A8A93 /* ModuleUtility.swift */,
 			);
 			path = RTTrPM;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 			files = (
 				9A9EEE282AE95584003A8A93 /* Utility.swift in Sources */,
 				9A9EEDF92AE94FF6003A8A93 /* ContentView.swift in Sources */,
+				9A9EEE2A2AE955C5003A8A93 /* ModuleUtility.swift in Sources */,
 				9A9EEDF72AE94FF6003A8A93 /* SoundTraxxApp.swift in Sources */,
 				9A9EEE242AE954DA003A8A93 /* CentroidAccVel.swift in Sources */,
 				9A9EEE262AE95531003A8A93 /* Constants.swift in Sources */,
