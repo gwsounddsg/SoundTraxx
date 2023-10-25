@@ -45,6 +45,7 @@
 		9A9EEE0E2AE94FF7003A8A93 /* SoundTraxxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundTraxxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A9EEE122AE94FF7003A8A93 /* SoundTraxxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundTraxxUITests.swift; sourceTree = "<group>"; };
 		9A9EEE142AE94FF7003A8A93 /* SoundTraxxUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundTraxxUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9A9EEE212AE95239003A8A93 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +76,7 @@
 		9A9EEDEA2AE94FF6003A8A93 = {
 			isa = PBXGroup;
 			children = (
+				9A9EEE212AE95239003A8A93 /* README.md */,
 				9A9EEDF52AE94FF6003A8A93 /* SoundTraxx */,
 				9A9EEE072AE94FF7003A8A93 /* SoundTraxxTests */,
 				9A9EEE112AE94FF7003A8A93 /* SoundTraxxUITests */,
