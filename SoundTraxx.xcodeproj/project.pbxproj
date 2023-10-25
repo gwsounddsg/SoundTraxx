@@ -21,6 +21,7 @@
 		9A9EEE2C2AE95627003A8A93 /* RTTrP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEE2B2AE95627003A8A93 /* RTTrP.swift */; };
 		9A9EEE2E2AE95650003A8A93 /* RTTrPM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEE2D2AE95650003A8A93 /* RTTrPM.swift */; };
 		9A9EEE302AE9568A003A8A93 /* Trackable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEE2F2AE9568A003A8A93 /* Trackable.swift */; };
+		9A9EEE322AE956B6003A8A93 /* CentroidPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEE312AE956B6003A8A93 /* CentroidPosition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		9A9EEE2B2AE95627003A8A93 /* RTTrP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTTrP.swift; sourceTree = "<group>"; };
 		9A9EEE2D2AE95650003A8A93 /* RTTrPM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTTrPM.swift; sourceTree = "<group>"; };
 		9A9EEE2F2AE9568A003A8A93 /* Trackable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trackable.swift; sourceTree = "<group>"; };
+		9A9EEE312AE956B6003A8A93 /* CentroidPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CentroidPosition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +158,7 @@
 				9A9EEE2B2AE95627003A8A93 /* RTTrP.swift */,
 				9A9EEE2D2AE95650003A8A93 /* RTTrPM.swift */,
 				9A9EEE2F2AE9568A003A8A93 /* Trackable.swift */,
+				9A9EEE312AE956B6003A8A93 /* CentroidPosition.swift */,
 			);
 			path = RTTrPM;
 			sourceTree = "<group>";
@@ -292,6 +295,7 @@
 			files = (
 				9A9EEE2E2AE95650003A8A93 /* RTTrPM.swift in Sources */,
 				9A9EEE282AE95584003A8A93 /* Utility.swift in Sources */,
+				9A9EEE322AE956B6003A8A93 /* CentroidPosition.swift in Sources */,
 				9A9EEE302AE9568A003A8A93 /* Trackable.swift in Sources */,
 				9A9EEE2C2AE95627003A8A93 /* RTTrP.swift in Sources */,
 				9A9EEDF92AE94FF6003A8A93 /* ContentView.swift in Sources */,
