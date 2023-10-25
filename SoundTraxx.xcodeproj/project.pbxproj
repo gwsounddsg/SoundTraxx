@@ -42,6 +42,7 @@
 		9A9EEE5F2AE96BAA003A8A93 /* OscTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEE5E2AE96BAA003A8A93 /* OscTag.swift */; };
 		9A9EEE632AE96C9B003A8A93 /* Timetag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEE622AE96C9B003A8A93 /* Timetag.swift */; };
 		9A9EEE652AE96CBC003A8A93 /* OscElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEE642AE96CBC003A8A93 /* OscElement.swift */; };
+		9A9EEE672AE96CD7003A8A93 /* Blob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEE662AE96CD7003A8A93 /* Blob.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +103,7 @@
 		9A9EEE5E2AE96BAA003A8A93 /* OscTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OscTag.swift; sourceTree = "<group>"; };
 		9A9EEE622AE96C9B003A8A93 /* Timetag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timetag.swift; sourceTree = "<group>"; };
 		9A9EEE642AE96CBC003A8A93 /* OscElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OscElement.swift; sourceTree = "<group>"; };
+		9A9EEE662AE96CD7003A8A93 /* Blob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blob.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -243,6 +245,7 @@
 				9A9EEE5E2AE96BAA003A8A93 /* OscTag.swift */,
 				9A9EEE622AE96C9B003A8A93 /* Timetag.swift */,
 				9A9EEE642AE96CBC003A8A93 /* OscElement.swift */,
+				9A9EEE662AE96CD7003A8A93 /* Blob.swift */,
 			);
 			path = Type;
 			sourceTree = "<group>";
@@ -389,6 +392,7 @@
 				9A9EEE2C2AE95627003A8A93 /* RTTrP.swift in Sources */,
 				9A9EEDF92AE94FF6003A8A93 /* ContentView.swift in Sources */,
 				9A9EEE2A2AE955C5003A8A93 /* ModuleUtility.swift in Sources */,
+				9A9EEE672AE96CD7003A8A93 /* Blob.swift in Sources */,
 				9A9EEDF72AE94FF6003A8A93 /* SoundTraxxApp.swift in Sources */,
 				9A9EEE362AE9571A003A8A93 /* Quaternion.swift in Sources */,
 				9A9EEE242AE954DA003A8A93 /* CentroidAccVel.swift in Sources */,
