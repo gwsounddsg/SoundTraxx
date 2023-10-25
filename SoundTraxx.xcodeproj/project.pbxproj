@@ -27,7 +27,7 @@
 		9A9EEE382AE95747003A8A93 /* TrackedPointAccVel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEE372AE95747003A8A93 /* TrackedPointAccVel.swift */; };
 		9A9EEE3A2AE9579F003A8A93 /* TrackedPointPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEE392AE9579F003A8A93 /* TrackedPointPosition.swift */; };
 		9A9EEE3D2AE95832003A8A93 /* TestConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEE3C2AE95832003A8A93 /* TestConstants.swift */; };
-		9A9EEE3F2AE958D3003A8A93 /* TestExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEE3E2AE958D3003A8A93 /* TestExtensions.swift */; };
+		9A9EEE412AE95926003A8A93 /* TestExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEE402AE95926003A8A93 /* TestExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,7 +73,7 @@
 		9A9EEE372AE95747003A8A93 /* TrackedPointAccVel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackedPointAccVel.swift; sourceTree = "<group>"; };
 		9A9EEE392AE9579F003A8A93 /* TrackedPointPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackedPointPosition.swift; sourceTree = "<group>"; };
 		9A9EEE3C2AE95832003A8A93 /* TestConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestConstants.swift; sourceTree = "<group>"; };
-		9A9EEE3E2AE958D3003A8A93 /* TestExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestExtensions.swift; sourceTree = "<group>"; };
+		9A9EEE402AE95926003A8A93 /* TestExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +146,7 @@
 		9A9EEE072AE94FF7003A8A93 /* SoundTraxxTests */ = {
 			isa = PBXGroup;
 			children = (
+				9A9EEE402AE95926003A8A93 /* TestExtensions.swift */,
 				9A9EEE3B2AE95818003A8A93 /* RTTrPM */,
 				9A9EEE082AE94FF7003A8A93 /* SoundTraxxTests.swift */,
 			);
@@ -184,7 +185,6 @@
 			isa = PBXGroup;
 			children = (
 				9A9EEE3C2AE95832003A8A93 /* TestConstants.swift */,
-				9A9EEE3E2AE958D3003A8A93 /* TestExtensions.swift */,
 			);
 			path = RTTrPM;
 			sourceTree = "<group>";
@@ -341,7 +341,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A9EEE092AE94FF7003A8A93 /* SoundTraxxTests.swift in Sources */,
-				9A9EEE3F2AE958D3003A8A93 /* TestExtensions.swift in Sources */,
+				9A9EEE412AE95926003A8A93 /* TestExtensions.swift in Sources */,
 				9A9EEE3D2AE95832003A8A93 /* TestConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
