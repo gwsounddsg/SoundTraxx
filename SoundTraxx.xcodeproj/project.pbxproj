@@ -25,6 +25,7 @@
 		9A9EEE342AE956E0003A8A93 /* Euler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEE332AE956E0003A8A93 /* Euler.swift */; };
 		9A9EEE362AE9571A003A8A93 /* Quaternion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEE352AE9571A003A8A93 /* Quaternion.swift */; };
 		9A9EEE382AE95747003A8A93 /* TrackedPointAccVel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEE372AE95747003A8A93 /* TrackedPointAccVel.swift */; };
+		9A9EEE3A2AE9579F003A8A93 /* TrackedPointPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEE392AE9579F003A8A93 /* TrackedPointPosition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,7 @@
 		9A9EEE332AE956E0003A8A93 /* Euler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Euler.swift; sourceTree = "<group>"; };
 		9A9EEE352AE9571A003A8A93 /* Quaternion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quaternion.swift; sourceTree = "<group>"; };
 		9A9EEE372AE95747003A8A93 /* TrackedPointAccVel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackedPointAccVel.swift; sourceTree = "<group>"; };
+		9A9EEE392AE9579F003A8A93 /* TrackedPointPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackedPointPosition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +169,7 @@
 				9A9EEE2F2AE9568A003A8A93 /* Trackable.swift */,
 				9A9EEE272AE95584003A8A93 /* Utility.swift */,
 				9A9EEE352AE9571A003A8A93 /* Quaternion.swift */,
+				9A9EEE392AE9579F003A8A93 /* TrackedPointPosition.swift */,
 				9A9EEE372AE95747003A8A93 /* TrackedPointAccVel.swift */,
 			);
 			path = RTTrPM;
@@ -302,6 +305,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A9EEE3A2AE9579F003A8A93 /* TrackedPointPosition.swift in Sources */,
 				9A9EEE2E2AE95650003A8A93 /* RTTrPM.swift in Sources */,
 				9A9EEE282AE95584003A8A93 /* Utility.swift in Sources */,
 				9A9EEE322AE956B6003A8A93 /* CentroidPosition.swift in Sources */,
