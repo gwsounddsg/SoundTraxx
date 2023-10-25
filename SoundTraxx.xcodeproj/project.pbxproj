@@ -35,6 +35,7 @@
 		9A9EEE4B2AE95A54003A8A93 /* QuaternionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEE4A2AE95A54003A8A93 /* QuaternionTests.swift */; };
 		9A9EEE4D2AE95A88003A8A93 /* RTTrP_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEE4C2AE95A88003A8A93 /* RTTrP_Tests.swift */; };
 		9A9EEE4F2AE95AB1003A8A93 /* RTTrPM_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEE4E2AE95AB1003A8A93 /* RTTrPM_Tests.swift */; };
+		9A9EEE512AE95ADD003A8A93 /* TrackableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEE502AE95ADD003A8A93 /* TrackableTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +89,7 @@
 		9A9EEE4A2AE95A54003A8A93 /* QuaternionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuaternionTests.swift; sourceTree = "<group>"; };
 		9A9EEE4C2AE95A88003A8A93 /* RTTrP_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTTrP_Tests.swift; sourceTree = "<group>"; };
 		9A9EEE4E2AE95AB1003A8A93 /* RTTrPM_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTTrPM_Tests.swift; sourceTree = "<group>"; };
+		9A9EEE502AE95ADD003A8A93 /* TrackableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackableTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,6 +208,7 @@
 				9A9EEE4A2AE95A54003A8A93 /* QuaternionTests.swift */,
 				9A9EEE4C2AE95A88003A8A93 /* RTTrP_Tests.swift */,
 				9A9EEE4E2AE95AB1003A8A93 /* RTTrPM_Tests.swift */,
+				9A9EEE502AE95ADD003A8A93 /* TrackableTests.swift */,
 			);
 			path = RTTrPM;
 			sourceTree = "<group>";
@@ -370,6 +373,7 @@
 				9A9EEE412AE95926003A8A93 /* TestExtensions.swift in Sources */,
 				9A9EEE492AE95A24003A8A93 /* FullTests.swift in Sources */,
 				9A9EEE4F2AE95AB1003A8A93 /* RTTrPM_Tests.swift in Sources */,
+				9A9EEE512AE95ADD003A8A93 /* TrackableTests.swift in Sources */,
 				9A9EEE3D2AE95832003A8A93 /* TestConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
