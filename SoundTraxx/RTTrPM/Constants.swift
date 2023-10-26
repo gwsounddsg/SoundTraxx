@@ -11,11 +11,6 @@ import Foundation
 
 
 
-let LOGGING = true
-
-
-
-
 public enum PacketSize: Int {
     case rttrp = 18
     case trackable = 6
