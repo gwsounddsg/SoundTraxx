@@ -48,6 +48,7 @@
 		9A9EEE6D2AE96DA6003A8A93 /* OscParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEE6C2AE96DA6003A8A93 /* OscParsing.swift */; };
 		9A9EEE6F2AE96E12003A8A93 /* OscBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEE6E2AE96E12003A8A93 /* OscBundle.swift */; };
 		9AB380622AEAAD3D00C52736 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB380612AEAAD3D00C52736 /* Utility.swift */; };
+		9AB380672AEAB5B800C52736 /* LoggingScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB380662AEAB5B800C52736 /* LoggingScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -114,6 +115,7 @@
 		9A9EEE6C2AE96DA6003A8A93 /* OscParsing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OscParsing.swift; sourceTree = "<group>"; };
 		9A9EEE6E2AE96E12003A8A93 /* OscBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OscBundle.swift; sourceTree = "<group>"; };
 		9AB380612AEAAD3D00C52736 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		9AB380662AEAB5B800C52736 /* LoggingScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggingScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,8 +169,8 @@
 			children = (
 				9A9EEE562AE9696A003A8A93 /* OSC */,
 				9A9EEE222AE954B2003A8A93 /* RTTrPM */,
+				9AB380652AEAB57200C52736 /* Views */,
 				9A9EEDF62AE94FF6003A8A93 /* SoundTraxxApp.swift */,
-				9A9EEDF82AE94FF6003A8A93 /* ContentView.swift */,
 				9AB380612AEAAD3D00C52736 /* Utility.swift */,
 				9A9EEDFA2AE94FF7003A8A93 /* Assets.xcassets */,
 				9A9EEDFC2AE94FF7003A8A93 /* SoundTraxx.entitlements */,
@@ -263,6 +265,15 @@
 				9A9EEE622AE96C9B003A8A93 /* Timetag.swift */,
 			);
 			path = Type;
+			sourceTree = "<group>";
+		};
+		9AB380652AEAB57200C52736 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9A9EEDF82AE94FF6003A8A93 /* ContentView.swift */,
+				9AB380662AEAB5B800C52736 /* LoggingScene.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -403,6 +414,7 @@
 				9A9EEE582AE96983003A8A93 /* OscExtensions.swift in Sources */,
 				9A9EEE322AE956B6003A8A93 /* CentroidPosition.swift in Sources */,
 				9A9EEE342AE956E0003A8A93 /* Euler.swift in Sources */,
+				9AB380672AEAB5B800C52736 /* LoggingScene.swift in Sources */,
 				9A9EEE632AE96C9B003A8A93 /* Timetag.swift in Sources */,
 				9A9EEE6B2AE96D80003A8A93 /* OscErrors.swift in Sources */,
 				9AB380622AEAAD3D00C52736 /* Utility.swift in Sources */,
