@@ -49,6 +49,8 @@
 		9A9EEE6F2AE96E12003A8A93 /* OscBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEE6E2AE96E12003A8A93 /* OscBundle.swift */; };
 		9AB380622AEAAD3D00C52736 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB380612AEAAD3D00C52736 /* Utility.swift */; };
 		9AB380672AEAB5B800C52736 /* LoggingScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB380662AEAB5B800C52736 /* LoggingScene.swift */; };
+		9AC6D9F92AEADB7D001B2120 /* Listener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC6D9F82AEADB7D001B2120 /* Listener.swift */; };
+		9AC6D9FB2AEADDBE001B2120 /* NetworkExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC6D9FA2AEADDBE001B2120 /* NetworkExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -116,6 +118,8 @@
 		9A9EEE6E2AE96E12003A8A93 /* OscBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OscBundle.swift; sourceTree = "<group>"; };
 		9AB380612AEAAD3D00C52736 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 		9AB380662AEAB5B800C52736 /* LoggingScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggingScene.swift; sourceTree = "<group>"; };
+		9AC6D9F82AEADB7D001B2120 /* Listener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Listener.swift; sourceTree = "<group>"; };
+		9AC6D9FA2AEADDBE001B2120 /* NetworkExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +171,7 @@
 		9A9EEDF52AE94FF6003A8A93 /* SoundTraxx */ = {
 			isa = PBXGroup;
 			children = (
+				9AC6D9F52AEADB20001B2120 /* Networking */,
 				9A9EEE562AE9696A003A8A93 /* OSC */,
 				9A9EEE222AE954B2003A8A93 /* RTTrPM */,
 				9AB380652AEAB57200C52736 /* Views */,
@@ -274,6 +279,15 @@
 				9AB380662AEAB5B800C52736 /* LoggingScene.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		9AC6D9F52AEADB20001B2120 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				9AC6D9F82AEADB7D001B2120 /* Listener.swift */,
+				9AC6D9FA2AEADDBE001B2120 /* NetworkExtensions.swift */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -416,6 +430,7 @@
 				9A9EEE342AE956E0003A8A93 /* Euler.swift in Sources */,
 				9AB380672AEAB5B800C52736 /* LoggingScene.swift in Sources */,
 				9A9EEE632AE96C9B003A8A93 /* Timetag.swift in Sources */,
+				9AC6D9F92AEADB7D001B2120 /* Listener.swift in Sources */,
 				9A9EEE6B2AE96D80003A8A93 /* OscErrors.swift in Sources */,
 				9AB380622AEAAD3D00C52736 /* Utility.swift in Sources */,
 				9A9EEE302AE9568A003A8A93 /* Trackable.swift in Sources */,
@@ -425,6 +440,7 @@
 				9A9EEE2A2AE955C5003A8A93 /* ModuleUtility.swift in Sources */,
 				9A9EEE672AE96CD7003A8A93 /* Blob.swift in Sources */,
 				9A9EEDF72AE94FF6003A8A93 /* SoundTraxxApp.swift in Sources */,
+				9AC6D9FB2AEADDBE001B2120 /* NetworkExtensions.swift in Sources */,
 				9A9EEE362AE9571A003A8A93 /* Quaternion.swift in Sources */,
 				9A9EEE242AE954DA003A8A93 /* CentroidAccVel.swift in Sources */,
 				9A9EEE382AE95747003A8A93 /* TrackedPointAccVel.swift in Sources */,
