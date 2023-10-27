@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		9A3332DA2AEBFFB500AD04FC /* ListenerOsc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3332D92AEBFFB500AD04FC /* ListenerOsc.swift */; };
+		9A3332DD2AEC03F400AD04FC /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3332DC2AEC03F400AD04FC /* Log.swift */; };
+		9A3332E32AEC0DED00AD04FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3332E22AEC0DED00AD04FC /* ViewController.swift */; };
+		9A3332E52AEC13CA00AD04FC /* LoggingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3332E42AEC13CA00AD04FC /* LoggingView.swift */; };
 		9A9EEDF72AE94FF6003A8A93 /* SoundTraxxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEDF62AE94FF6003A8A93 /* SoundTraxxApp.swift */; };
 		9A9EEDF92AE94FF6003A8A93 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEDF82AE94FF6003A8A93 /* ContentView.swift */; };
 		9A9EEDFB2AE94FF7003A8A93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A9EEDFA2AE94FF7003A8A93 /* Assets.xcassets */; };
@@ -73,6 +76,9 @@
 
 /* Begin PBXFileReference section */
 		9A3332D92AEBFFB500AD04FC /* ListenerOsc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenerOsc.swift; sourceTree = "<group>"; };
+		9A3332DC2AEC03F400AD04FC /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		9A3332E22AEC0DED00AD04FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9A3332E42AEC13CA00AD04FC /* LoggingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggingView.swift; sourceTree = "<group>"; };
 		9A9EEDF32AE94FF6003A8A93 /* SoundTraxx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundTraxx.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A9EEDF62AE94FF6003A8A93 /* SoundTraxxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundTraxxApp.swift; sourceTree = "<group>"; };
 		9A9EEDF82AE94FF6003A8A93 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -149,6 +155,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9A3332DB2AEC03E200AD04FC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9A3332DC2AEC03F400AD04FC /* Log.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9A3332E12AEC0DCB00AD04FC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9AC6D9F52AEADB20001B2120 /* Networking */,
+				9A9EEE562AE9696A003A8A93 /* OSC */,
+				9A9EEE222AE954B2003A8A93 /* RTTrPM */,
+				9A3332E22AEC0DED00AD04FC /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		9A9EEDEA2AE94FF6003A8A93 = {
 			isa = PBXGroup;
 			children = (
@@ -173,10 +198,9 @@
 		9A9EEDF52AE94FF6003A8A93 /* SoundTraxx */ = {
 			isa = PBXGroup;
 			children = (
-				9AC6D9F52AEADB20001B2120 /* Networking */,
-				9A9EEE562AE9696A003A8A93 /* OSC */,
-				9A9EEE222AE954B2003A8A93 /* RTTrPM */,
+				9A3332DB2AEC03E200AD04FC /* Model */,
 				9AB380652AEAB57200C52736 /* Views */,
+				9A3332E12AEC0DCB00AD04FC /* Controller */,
 				9A9EEDF62AE94FF6003A8A93 /* SoundTraxxApp.swift */,
 				9AB380612AEAAD3D00C52736 /* Utility.swift */,
 				9A9EEDFA2AE94FF7003A8A93 /* Assets.xcassets */,
@@ -279,6 +303,7 @@
 			children = (
 				9A9EEDF82AE94FF6003A8A93 /* ContentView.swift */,
 				9AB380662AEAB5B800C52736 /* LoggingScene.swift */,
+				9A3332E42AEC13CA00AD04FC /* LoggingView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -425,16 +450,19 @@
 			files = (
 				9A9EEE5F2AE96BAA003A8A93 /* OscTag.swift in Sources */,
 				9A9EEE6F2AE96E12003A8A93 /* OscBundle.swift in Sources */,
+				9A3332DD2AEC03F400AD04FC /* Log.swift in Sources */,
 				9A9EEE3A2AE9579F003A8A93 /* TrackedPointPosition.swift in Sources */,
 				9A9EEE2E2AE95650003A8A93 /* RTTrPM.swift in Sources */,
 				9A9EEE282AE95584003A8A93 /* RTTrP_Utility.swift in Sources */,
 				9A9EEE582AE96983003A8A93 /* OscExtensions.swift in Sources */,
 				9A9EEE322AE956B6003A8A93 /* CentroidPosition.swift in Sources */,
 				9A9EEE342AE956E0003A8A93 /* Euler.swift in Sources */,
+				9A3332E32AEC0DED00AD04FC /* ViewController.swift in Sources */,
 				9AB380672AEAB5B800C52736 /* LoggingScene.swift in Sources */,
 				9A9EEE632AE96C9B003A8A93 /* Timetag.swift in Sources */,
 				9AC6D9F92AEADB7D001B2120 /* Listener.swift in Sources */,
 				9A9EEE6B2AE96D80003A8A93 /* OscErrors.swift in Sources */,
+				9A3332E52AEC13CA00AD04FC /* LoggingView.swift in Sources */,
 				9AB380622AEAAD3D00C52736 /* Utility.swift in Sources */,
 				9A9EEE302AE9568A003A8A93 /* Trackable.swift in Sources */,
 				9A9EEE2C2AE95627003A8A93 /* RTTrP.swift in Sources */,
@@ -701,10 +729,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = gw.SoundTraxxTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoundTraxx.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SoundTraxx";
 			};
 			name = Debug;
@@ -724,10 +753,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = gw.SoundTraxxTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoundTraxx.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SoundTraxx";
 			};
 			name = Release;
@@ -746,10 +776,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = gw.SoundTraxxUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = SoundTraxx;
 			};
 			name = Debug;
@@ -768,10 +799,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = gw.SoundTraxxUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = SoundTraxx;
 			};
 			name = Release;
