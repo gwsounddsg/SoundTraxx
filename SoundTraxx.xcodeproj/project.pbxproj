@@ -11,6 +11,7 @@
 		9A3332DD2AEC03F400AD04FC /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3332DC2AEC03F400AD04FC /* Log.swift */; };
 		9A3332E32AEC0DED00AD04FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3332E22AEC0DED00AD04FC /* ViewController.swift */; };
 		9A3332E52AEC13CA00AD04FC /* LoggingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3332E42AEC13CA00AD04FC /* LoggingView.swift */; };
+		9A3332E72AEC378100AD04FC /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3332E62AEC378100AD04FC /* NetworkManager.swift */; };
 		9A9EEDF72AE94FF6003A8A93 /* SoundTraxxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEDF62AE94FF6003A8A93 /* SoundTraxxApp.swift */; };
 		9A9EEDF92AE94FF6003A8A93 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEDF82AE94FF6003A8A93 /* ContentView.swift */; };
 		9A9EEDFB2AE94FF7003A8A93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A9EEDFA2AE94FF7003A8A93 /* Assets.xcassets */; };
@@ -79,6 +80,8 @@
 		9A3332DC2AEC03F400AD04FC /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
 		9A3332E22AEC0DED00AD04FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9A3332E42AEC13CA00AD04FC /* LoggingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggingView.swift; sourceTree = "<group>"; };
+		9A3332E62AEC378100AD04FC /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		9A3332E82AEC3B8800AD04FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		9A9EEDF32AE94FF6003A8A93 /* SoundTraxx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundTraxx.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A9EEDF62AE94FF6003A8A93 /* SoundTraxxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundTraxxApp.swift; sourceTree = "<group>"; };
 		9A9EEDF82AE94FF6003A8A93 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -166,10 +169,10 @@
 		9A3332E12AEC0DCB00AD04FC /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				9A3332E22AEC0DED00AD04FC /* ViewController.swift */,
 				9AC6D9F52AEADB20001B2120 /* Networking */,
 				9A9EEE562AE9696A003A8A93 /* OSC */,
 				9A9EEE222AE954B2003A8A93 /* RTTrPM */,
-				9A3332E22AEC0DED00AD04FC /* ViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 		9A9EEDF52AE94FF6003A8A93 /* SoundTraxx */ = {
 			isa = PBXGroup;
 			children = (
+				9A3332E82AEC3B8800AD04FC /* Info.plist */,
 				9A3332DB2AEC03E200AD04FC /* Model */,
 				9AB380652AEAB57200C52736 /* Views */,
 				9A3332E12AEC0DCB00AD04FC /* Controller */,
@@ -311,6 +315,7 @@
 		9AC6D9F52AEADB20001B2120 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				9A3332E62AEC378100AD04FC /* NetworkManager.swift */,
 				9AC6D9FA2AEADDBE001B2120 /* NetworkExtensions.swift */,
 				9AC6D9F82AEADB7D001B2120 /* Listener.swift */,
 				9A3332D92AEBFFB500AD04FC /* ListenerOsc.swift */,
@@ -463,6 +468,7 @@
 				9AC6D9F92AEADB7D001B2120 /* Listener.swift in Sources */,
 				9A9EEE6B2AE96D80003A8A93 /* OscErrors.swift in Sources */,
 				9A3332E52AEC13CA00AD04FC /* LoggingView.swift in Sources */,
+				9A3332E72AEC378100AD04FC /* NetworkManager.swift in Sources */,
 				9AB380622AEAAD3D00C52736 /* Utility.swift in Sources */,
 				9A9EEE302AE9568A003A8A93 /* Trackable.swift in Sources */,
 				9A9EEE2C2AE95627003A8A93 /* RTTrP.swift in Sources */,
@@ -649,6 +655,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SoundTraxx/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -688,6 +695,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SoundTraxx/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;

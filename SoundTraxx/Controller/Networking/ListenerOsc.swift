@@ -22,8 +22,11 @@ class ListenerOsc: Listener {
     weak var delegateOsc: ListenerOscDelegate?
     
     
+    
+    
     override func receive() {
         _connection?.receiveMessage(completion: { completeContent, contentContext, isComplete, error in
+            print("received")
             if self.delegateOsc == nil {return}
             if error != nil {
                 print("ListenerOsc receive error: \(String(describing: error))")

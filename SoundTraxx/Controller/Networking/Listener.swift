@@ -21,7 +21,7 @@ protocol ListenerDelegate {
 
 
 class Listener {
-    let delegate: ListenerDelegate
+    let delegate: ListenerDelegate?
     let port: Int
     
     internal var _listener: NWListenerProtocol?
@@ -29,7 +29,7 @@ class Listener {
     
     private let _queue: DispatchQueue
     
-    init(_ port: Int, _ queueName: String, delegate: ListenerDelegate) {
+    init(_ port: Int, _ queueName: String, delegate: ListenerDelegate?) {
         self.port = port
         _queue = DispatchQueue(label: queueName)
         self.delegate = delegate
@@ -49,7 +49,7 @@ class Listener {
             }
             
             if let newData = completeContent {
-                self.delegate.listenerReceived(newData)
+                self.delegate?.listenerReceived(newData)
             }
             
             self.receive() // loop

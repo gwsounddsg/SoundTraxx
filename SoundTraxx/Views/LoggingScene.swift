@@ -23,20 +23,4 @@ struct LoggingScene: Scene {
         .windowResizability(.contentSize)
         .keyboardShortcut("l", modifiers: [.command])
     }
-//    var body: some Scene {
-//        Window("Logging", id: "logging") {
-//            VStack {
-//                Text("Here's some logs")
-//                    .frame(minWidth: 300, maxWidth: 400, minHeight: 300, maxHeight: .infinity)
-//
-//            }
-//            .padding()
-//            .environmentObject(viewController)
-//        }
-//        .defaultPosition(.topTrailing)
-//        .defaultSize(width: 300, height: 300)
-//        .windowResizability(.contentSize)
-//        .keyboardShortcut("l", modifiers: [.command])
-//    }
-    
 }
