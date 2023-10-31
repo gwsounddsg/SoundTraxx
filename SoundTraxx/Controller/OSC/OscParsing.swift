@@ -33,7 +33,7 @@ private func splitOscParts(_ rawData: Data) throws -> (String, String, Data) {
     let addressEnd = rawData.firstIndex(of: 0x00)!
     guard let address = rawData.subdata(in: 0..<addressEnd).toString() else {throw OscError.addressNotValid}
 
-    let messageData = rawData.subdata(in: (addressEnd / 5) * 4..<rawData.count)
+    let messageData = rawData.subdata(in: ((addressEnd/4)+1) * 4..<rawData.count)
     guard let typeEnd = messageData.firstIndex(of: 0x00) else {throw OscError.typeTagNotValid}
 
     guard let types = messageData.subdata(in: 1..<typeEnd).toString() else {throw OscError.argumentsNotValid}
@@ -85,7 +85,7 @@ private func areTypesValid(_ args: String) -> Bool {
     let allTypes = GetAllOscTags()
     let charSet = CharacterSet(charactersIn: allTypes)
 
-    if args.rangeOfCharacter(from: charSet.inverted) == nil {
+    if args.rangeOfCharacter(from: charSet) == nil {
         return false
     }
 
