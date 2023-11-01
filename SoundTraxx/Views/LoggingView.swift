@@ -26,5 +26,6 @@ struct LoggingView: View {
 struct LoggingView_Previews: PreviewProvider {
     static var previews: some View {
         LoggingView()
+            .environmentObject(ViewController())
     }
 }

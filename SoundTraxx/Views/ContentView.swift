@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject var viewController: ViewController
+    
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -16,8 +18,8 @@ struct ContentView: View {
             
             Text("Hello, world!")
             
-            Button("Log") {
-                
+            Button("Send Message") {
+                viewController.sendMessage()
             }
         }
         .padding()

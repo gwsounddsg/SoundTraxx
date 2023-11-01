@@ -43,4 +43,10 @@ class ViewController: ObservableObject, ListenerOscDelegate, ListenerDelegate {
     func listenerReceived(_ data: Data) {
         
     }
+    
+    
+    func sendMessage() {
+        let message = OscMessage("/sending/to/max", [4])
+        network.client.send(message)
+    }
 }
