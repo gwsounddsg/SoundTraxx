@@ -93,7 +93,7 @@ class Listener {
         _listener?.stateUpdateHandler = { state in
             switch state {
             case .ready:
-                print("Listening on port \(String(describing: self.port))")
+                print("Listening on port \(String(describing: self.port)) is now ready")
             case .failed(let error):
                 print("Listener failed with error \(error)")
             default:
