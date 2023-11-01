@@ -9,7 +9,7 @@ import Foundation
 
 
 
-protocol ListenerOscDelegate: AnyObject {
+protocol ListenerOscDelegate: AnyObject, ListenerDelegate {
     func oscReceivedMessage(_ message: OscMessage)
     func oscReceivedBundle(_ bundle: OscBundle)
 }
@@ -20,8 +20,6 @@ protocol ListenerOscDelegate: AnyObject {
 
 class ListenerOsc: Listener {
     weak var delegateOsc: ListenerOscDelegate?
-    
-    
     
     
     override func receive() {

@@ -47,7 +47,9 @@ class ClientOsc {
         _port = port
         
         disconnect()
-        _client = NWConnection(host: address, port: _port, using: .udp)
+        let params = NWParameters.udp
+        params.allowLocalEndpointReuse = true
+        _client = NWConnection(host: address, port: _port, using: params)
         
         _client!.stateUpdateHandler = { newState in
             switch newState {

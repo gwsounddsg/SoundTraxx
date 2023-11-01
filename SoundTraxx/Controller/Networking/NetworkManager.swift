@@ -10,13 +10,34 @@ import Foundation
 
 
 struct NetworkManager {
-    var listener: ListenerOsc
-    var client: ClientOsc
+    var listener: ListenerOsc?
+    var client: ClientOsc?
     
     
     init() {
-        listener = ListenerOsc(4242, "my osc queue", delegate: nil)
+        
+    }
+    
+    
+    mutating func setupListener(_ delegate: ListenerOscDelegate) {
+        listener = ListenerOsc(4242, "my osc queue", delegate: delegate)
+        listener!.delegateOsc = delegate
+        
+        do {
+            try listener!.connect()
+        }
+        catch {
+            print("listener connect error: \(String(describing: error))")
+        }
+    }
+    
+    
+    mutating func setupClient() {
         client = ClientOsc()
-        client.connect()
+    }
+    
+    
+    func connectClient() {
+        client?.connect()
     }
 }

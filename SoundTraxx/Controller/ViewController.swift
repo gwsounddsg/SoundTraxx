@@ -10,7 +10,7 @@ import SwiftUI
 
 
 
-class ViewController: ObservableObject, ListenerOscDelegate, ListenerDelegate {
+class ViewController: ObservableObject, ListenerOscDelegate {
     @Published var log = Log(data: "here's a log again")
     
     var network: NetworkManager
@@ -18,14 +18,7 @@ class ViewController: ObservableObject, ListenerOscDelegate, ListenerDelegate {
     
     init() {
         network = NetworkManager()
-        network.listener.delegateOsc = self
-        
-        do {
-            try network.listener.connect()
-        }
-        catch let error {
-            print("\(error)")
-        }
+        network.setupListener(self)
     }
     
     
@@ -45,8 +38,15 @@ class ViewController: ObservableObject, ListenerOscDelegate, ListenerDelegate {
     }
     
     
+    func listenerReady() {
+        print("listenerReady")
+        network.setupClient()
+        network.connectClient()
+    }
+    
+    
     func sendMessage() {
         let message = OscMessage("/sending/to/max", [4])
-        network.client.send(message)
+        network.client?.send(message)
     }
 }

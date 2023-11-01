@@ -14,6 +14,7 @@ import Network
 
 protocol ListenerDelegate {
     func listenerReceived(_ data: Data)
+    func listenerReady()
 }
 
 
@@ -83,7 +84,10 @@ class Listener {
         _listener?.cancel()
         
         let endpoint = NWEndpoint.Port(String(port))!
-        let newListener = try NWListener(using: .udp, on: endpoint)
+        
+        let parameters = NWParameters.udp
+        parameters.allowLocalEndpointReuse = true
+        let newListener = try NWListener(using: parameters, on: endpoint)
         
         _listener = newListener
     }
@@ -94,6 +98,7 @@ class Listener {
             switch state {
             case .ready:
                 print("Listening on port \(String(describing: self.port)) is now ready")
+                self.delegate!.listenerReady()
             case .failed(let error):
                 print("Listener failed with error \(error)")
             default:
@@ -114,6 +119,7 @@ class Listener {
     
     private func createConnection(_ connection: NWConnection) {
         _connection = connection
+        
         _connection!.stateUpdateHandler = { state in
             switch state {
             case .ready:

@@ -18,6 +18,19 @@ struct ContentView: View {
             
             Text("Hello, world!")
             
+            
+            HStack {
+                Button("Init Listener") {
+                    viewController.network.setupListener(viewController)
+                }
+                Button("Init Client") {
+                    viewController.network.setupClient()
+                }
+                Button("Connect Client") {
+                    viewController.network.connectClient()
+                }
+            }
+            
             Button("Send Message") {
                 viewController.sendMessage()
             }
