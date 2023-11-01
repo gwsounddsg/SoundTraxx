@@ -31,7 +31,7 @@ class ViewController: ObservableObject, ListenerOscDelegate, ListenerDelegate {
     
     func oscReceivedMessage(_ message: OscMessage) {
         DispatchQueue.main.async {
-            self.log.data = message.address
+            self.log.data = "\(message.address) \(message.getArguments())"
         }
     }
     

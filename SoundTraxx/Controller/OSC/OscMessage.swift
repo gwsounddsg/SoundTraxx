@@ -57,4 +57,44 @@ public struct OscMessage: OscElement {
         let elements = address.split(separator: "/")
         return String(elements[index])
     }
+    
+    
+    func getArgument(index: Int) -> String? {
+        guard let arg = arguments[index] else {
+            return nil
+        }
+            
+        switch arg.tag {
+        case .int:
+            return "\(Int(arg.data))"
+        case .float:
+            return "\(Float(arg.data))"
+        case .string:
+            return String(arg.data)
+        case .blob:
+            return "\(Blob(arg.data))"
+        case .boolTrue:
+            return "true"
+        case .boolFalse:
+            return "false"
+        case .time:
+            return "\(Timetag(arg.data))"
+        case .null:
+            return "null"
+        case .impulse:
+            return "impulse"
+        }
+    }
+    
+    
+    func getArguments() -> String {
+        var string = ""
+        
+        for i in 0..<arguments.count {
+            string += getArgument(index: i)!
+            string += " "
+        }
+        
+        return string
+    }
 }

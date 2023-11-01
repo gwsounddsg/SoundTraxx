@@ -37,7 +37,7 @@ private func splitOscParts(_ rawData: Data) throws -> (String, String, Data) {
     guard let typeEnd = messageData.firstIndex(of: 0x00) else {throw OscError.typeTagNotValid}
 
     guard let types = messageData.subdata(in: 1..<typeEnd).toString() else {throw OscError.argumentsNotValid}
-    let args = messageData.subdata(in: (typeEnd / 5) * 4..<messageData.count)
+    let args = messageData.subdata(in: ((typeEnd/4)+1) * 4..<messageData.count)
 
     return (address, types, args)
 }
