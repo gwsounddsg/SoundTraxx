@@ -35,7 +35,6 @@ class ListenerOsc: Listener {
             
             if let newData = completeContent {
                 self.sendToDelegate(newData)
-                return
             }
             
             self.receive() // loop

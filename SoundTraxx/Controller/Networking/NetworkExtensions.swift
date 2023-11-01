@@ -29,4 +29,5 @@ protocol NWConnectionProtocol {
     var stateUpdateHandler: ((_ state: NWConnection.State) -> Void)? { get set }
     
     func receiveMessage(completion: @escaping (_ completeContent: Data?, _ contentContext: NWConnection.ContentContext?, _ isComplete: Bool, _ error: NWError?) -> Void)
+    func start(queue: DispatchQueue)
 }

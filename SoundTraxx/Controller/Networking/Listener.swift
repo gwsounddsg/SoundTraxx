@@ -65,8 +65,14 @@ class Listener {
     func connect() throws {
         try createNewListener()
         
+        if _listener == nil {
+            print("Listener is nil, quitting connection")
+            return
+        }
+        
         setupStateHandler()
         setupConnectionHandler()
+        
         _listener!.start(queue: _queue)
         
         print("Started Listening to port: \(port) on queue: \(_queue.label)")
@@ -98,14 +104,10 @@ class Listener {
     
     
     private func setupConnectionHandler() {
-        _listener?.newConnectionHandler = { [weak self] connection in
-            guard let strongSelf = self else {
-                print("Error: weak self in Listener")
-                return
-            }
-            
-            connection.start(queue: strongSelf._queue)
-            strongSelf.createConnection(connection)
+        _listener?.newConnectionHandler = { connection in
+            self.createConnection(connection)
+            self.receive()
+            self._connection?.start(queue: self._queue)
         }
     }
     
