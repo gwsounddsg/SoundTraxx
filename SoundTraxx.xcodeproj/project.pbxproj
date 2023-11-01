@@ -54,6 +54,7 @@
 		9A9EEE6F2AE96E12003A8A93 /* OscBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EEE6E2AE96E12003A8A93 /* OscBundle.swift */; };
 		9AB380622AEAAD3D00C52736 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB380612AEAAD3D00C52736 /* Utility.swift */; };
 		9AB380672AEAB5B800C52736 /* LoggingScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB380662AEAB5B800C52736 /* LoggingScene.swift */; };
+		9AC2CF9C2AF29FFD007A941C /* ClientOsc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC2CF9B2AF29FFD007A941C /* ClientOsc.swift */; };
 		9AC6D9F92AEADB7D001B2120 /* Listener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC6D9F82AEADB7D001B2120 /* Listener.swift */; };
 		9AC6D9FB2AEADDBE001B2120 /* NetworkExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC6D9FA2AEADDBE001B2120 /* NetworkExtensions.swift */; };
 /* End PBXBuildFile section */
@@ -129,6 +130,7 @@
 		9A9EEE6E2AE96E12003A8A93 /* OscBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OscBundle.swift; sourceTree = "<group>"; };
 		9AB380612AEAAD3D00C52736 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 		9AB380662AEAB5B800C52736 /* LoggingScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggingScene.swift; sourceTree = "<group>"; };
+		9AC2CF9B2AF29FFD007A941C /* ClientOsc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientOsc.swift; sourceTree = "<group>"; };
 		9AC6D9F82AEADB7D001B2120 /* Listener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Listener.swift; sourceTree = "<group>"; };
 		9AC6D9FA2AEADDBE001B2120 /* NetworkExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -319,6 +321,7 @@
 				9AC6D9FA2AEADDBE001B2120 /* NetworkExtensions.swift */,
 				9AC6D9F82AEADB7D001B2120 /* Listener.swift */,
 				9A3332D92AEBFFB500AD04FC /* ListenerOsc.swift */,
+				9AC2CF9B2AF29FFD007A941C /* ClientOsc.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -455,6 +458,7 @@
 			files = (
 				9A9EEE5F2AE96BAA003A8A93 /* OscTag.swift in Sources */,
 				9A9EEE6F2AE96E12003A8A93 /* OscBundle.swift in Sources */,
+				9AC2CF9C2AF29FFD007A941C /* ClientOsc.swift in Sources */,
 				9A3332DD2AEC03F400AD04FC /* Log.swift in Sources */,
 				9A9EEE3A2AE9579F003A8A93 /* TrackedPointPosition.swift in Sources */,
 				9A9EEE2E2AE95650003A8A93 /* RTTrPM.swift in Sources */,
