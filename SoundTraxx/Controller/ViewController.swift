@@ -27,15 +27,16 @@ class ViewController: ObservableObject, ListenerOscDelegate {
     
     func printPatch() {
         for p in patch {
-            log.data += p.text + "\n"
+            log.add(p.text)
         }
     }
     
    
-    //MARK - Network
+    // MARK - Network
+    
     func oscReceivedMessage(_ message: OscMessage) {
         DispatchQueue.main.async {
-            self.log.data = "\(message.address) \(message.getArguments())"
+            self.log.add("\(message.address) \(message.getArguments())")
         }
     }
     

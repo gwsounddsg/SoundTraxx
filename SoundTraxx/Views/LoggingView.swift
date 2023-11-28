@@ -8,7 +8,6 @@
 import SwiftUI
 
 
-
 struct LoggingView: View {
     @EnvironmentObject var viewController: ViewController
     

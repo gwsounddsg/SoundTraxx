@@ -8,7 +8,11 @@
 import Foundation
 
 
-
 struct Log {
     var data: String = ""
+    
+    
+    mutating func add(_ text: String) {
+        data += text + "\n"
+    }
 }
