@@ -9,7 +9,7 @@ import SwiftUI
 
 
 class ViewController: ObservableObject, ListenerOscDelegate {
-    @Published var log = Log(data: "This is the start of the log")
+    @Published var log = Log()
     @Published var patch: [Patch] = []
     
     var network: NetworkManager
@@ -27,8 +27,7 @@ class ViewController: ObservableObject, ListenerOscDelegate {
     
     func printPatch() {
         for p in patch {
-            log.data += "\n"
-            log.data += p.text
+            log.data += p.text + "\n"
         }
     }
     

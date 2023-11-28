@@ -10,5 +10,5 @@ import Foundation
 
 
 struct Log {
-    var data: String
+    var data: String = ""
 }
