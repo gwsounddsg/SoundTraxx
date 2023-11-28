@@ -51,7 +51,6 @@ class ViewController: ObservableObject, ListenerOscDelegate {
     
     
     func listenerReady() {
-        print("listenerReady")
         network.setupClient()
         network.connectClient()
     }

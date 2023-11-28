@@ -16,6 +16,7 @@ struct LoggingView: View {
             ScrollView(.vertical) {
                 Text("\(viewController.log.data)")
                     .frame(minWidth: 300, maxWidth: 400, minHeight: 300, maxHeight: .infinity, alignment: .topLeading)
+                    .fontDesign(.monospaced)
             }
         }
         .padding()

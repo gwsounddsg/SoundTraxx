@@ -13,6 +13,16 @@ struct Log {
     
     
     mutating func add(_ text: String) {
-        data += text + "\n"
+        data += getTime() + " = " + text + "\n"
+    }
+    
+    
+    private func getTime() -> String {
+        let time = Date()
+        let formatter = DateFormatter()
+        formatter.locale = Locale(identifier: "en_US")
+        formatter.dateFormat = "yyyy-MM-dd HH:mm:ss"
+        
+        return formatter.string(from: time)
     }
 }
