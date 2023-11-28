@@ -19,7 +19,6 @@ struct LoggingView: View {
                 
         }
         .padding()
-        .environmentObject(viewController)
     }
 }
 
