@@ -9,7 +9,7 @@ import SwiftUI
 
 
 class ViewController: ObservableObject, ListenerOscDelegate {
-    @Published var log = Log(data: "here's a log again")
+    @Published var log = Log(data: "This is the start of the log")
     @Published var patch: [Patch] = []
     
     var network: NetworkManager

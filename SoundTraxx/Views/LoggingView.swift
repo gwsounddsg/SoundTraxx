@@ -15,16 +15,25 @@ struct LoggingView: View {
     var body: some View {
         VStack {
             Text("\(viewController.log.data)")
-                .frame(minWidth: 300, maxWidth: 400, minHeight: 300, maxHeight: .infinity)
-                
+                .frame(minWidth: 300, maxWidth: 400, minHeight: 300, maxHeight: .infinity, alignment: .topLeading)
         }
         .padding()
     }
 }
 
+
+
+struct LoggingViewExample: View {
+    @StateObject var vc = ViewController()
+    
+    var body: some View {
+        LoggingView()
+            .environmentObject(vc)
+    }
+}
+
 struct LoggingView_Previews: PreviewProvider {
     static var previews: some View {
-        LoggingView()
-            .environmentObject(ViewController())
+        LoggingViewExample()
     }
 }
