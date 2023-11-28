@@ -14,7 +14,6 @@ struct SoundTraxxApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .frame(minWidth: 200, maxWidth: 400, minHeight: 100, maxHeight: 400)
                 .environmentObject(viewController)
         }
         .defaultSize(width: 200, height: 100)
