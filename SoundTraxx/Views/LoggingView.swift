@@ -14,8 +14,10 @@ struct LoggingView: View {
     
     var body: some View {
         VStack {
-            Text("\(viewController.log.data)")
-                .frame(minWidth: 300, maxWidth: 400, minHeight: 300, maxHeight: .infinity, alignment: .topLeading)
+            ScrollView(.vertical) {
+                Text("\(viewController.log.data)")
+                    .frame(minWidth: 300, maxWidth: 400, minHeight: 300, maxHeight: .infinity, alignment: .topLeading)
+            }
         }
         .padding()
     }
