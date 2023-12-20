@@ -8,17 +8,19 @@
 import SwiftUI
 
 
-class ViewController: ObservableObject, ListenerOscDelegate {
+class ViewController: ObservableObject, ListenerOscDelegate, ListenerRttrpDelegate {
     @Published var log = Log()
     @Published var patch: [Patch] = []
     @Published var edit: Bool = false
     
     var network: NetworkManager
+    var currentTrackables = [String: Int]()
     
     
     init() {
         network = NetworkManager()
-        network.setupListener(self)
+        network.setupListenerOsc(self)
+        network.setupListenerRttrpm(self)
         
         for index in 1...64 {
             patch.append(Patch(objectNumber: index))
@@ -54,6 +56,26 @@ class ViewController: ObservableObject, ListenerOscDelegate {
     func listenerReady() {
         network.setupClient()
         network.connectClient()
+    }
+    
+    
+    func receivedRttrp(_ rttrp: RTTrP) {
+        let pmPackets = rttrp.pmPackets
+        
+        for packet in pmPackets {
+            guard let trackable = packet.trackable else {continue}
+            guard let centroid = trackable.submodules[.centroidAccVel] as? [CentroidAccVel] else {continue}
+            
+            if centroid.isEmpty {continue}
+            
+            let x = Float(centroid[0].position.x)
+            let y = Float(centroid[0].position.y)
+            
+            DispatchQueue.main.async {
+                let str = String(format: "RTTrP Trackable \(trackable.name) x: %.2f y: %.2f", x, y)
+                self.log.add(str)
+            }
+        }
     }
     
     

@@ -10,7 +10,8 @@ import Foundation
 
 
 struct NetworkManager {
-    var listener: ListenerOsc?
+    var listenerOsc: ListenerOsc?
+    var listenerRttrp: ListenerRttrp?
     var client: ClientOsc?
     
     
@@ -19,15 +20,28 @@ struct NetworkManager {
     }
     
     
-    mutating func setupListener(_ delegate: ListenerOscDelegate) {
-        listener = ListenerOsc(4242, "my osc queue", delegate: delegate)
-        listener!.delegateOsc = delegate
+    mutating func setupListenerOsc(_ delegate: ListenerOscDelegate) {
+        listenerOsc = ListenerOsc(4242, "my osc queue", delegate: delegate)
+        listenerOsc!.delegateOsc = delegate
         
         do {
-            try listener!.connect()
+            try listenerOsc!.connect()
         }
         catch {
-            print("listener connect error: \(String(describing: error))")
+            print("listenerOsc connect error: \(String(describing: error))")
+        }
+    }
+    
+    
+    mutating func setupListenerRttrpm(_ delegate: ListenerRttrpDelegate) {
+        listenerRttrp = ListenerRttrp(24002, "listener rttrpm", delegate: delegate)
+        listenerRttrp!.delegateRttrpm = delegate
+        
+        do {
+            try listenerRttrp!.connect()
+        }
+        catch {
+            print("listenerRttrpm connect error: \(String(describing: error))")
         }
     }
     

@@ -15,7 +15,7 @@ struct LoggingView: View {
         VStack {
             ScrollView(.vertical) {
                 Text("\(viewController.log.data)")
-                    .frame(minWidth: 300, maxWidth: 400, minHeight: 300, maxHeight: .infinity, alignment: .topLeading)
+                    .frame(minWidth: 300, maxWidth: 600, minHeight: 300, maxHeight: .infinity, alignment: .topLeading)
                     .fontDesign(.monospaced)
             }
         }

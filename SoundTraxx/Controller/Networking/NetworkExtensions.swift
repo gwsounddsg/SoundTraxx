@@ -31,3 +31,11 @@ protocol NWConnectionProtocol {
     func receiveMessage(completion: @escaping (_ completeContent: Data?, _ contentContext: NWConnection.ContentContext?, _ isComplete: Bool, _ error: NWError?) -> Void)
     func start(queue: DispatchQueue)
 }
+
+
+
+
+
+extension Data {
+    var bytes: [UInt8] {return [UInt8](self)}
+}
