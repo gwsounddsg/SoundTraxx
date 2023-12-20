@@ -16,7 +16,7 @@ struct ContentView: View {
     var body: some View {
         VStack {
             HStack(spacing: 20) {
-                Button("Mute") {
+                Button("Mute All") {
 
                 }
                 Button("Edit") {
