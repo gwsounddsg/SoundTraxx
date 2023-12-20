@@ -20,7 +20,7 @@ struct ContentView: View {
 
                 }
                 Button("Edit") {
-
+                    vc.edit = !vc.edit
                 }
                 Button("Log") {
                     vc.printPatch()
@@ -33,7 +33,7 @@ struct ContentView: View {
             ScrollView(.vertical, showsIndicators: true) {
                 LazyVGrid(columns: columns, spacing: 7) {
                     ForEach($vc.patch) { $data in
-                        PatchView(data: $data)
+                        PatchView(data: $data, edit: $vc.edit)
                     }
                 }
                 .padding(.horizontal, 10)

@@ -11,6 +11,7 @@ import SwiftUI
 class ViewController: ObservableObject, ListenerOscDelegate {
     @Published var log = Log()
     @Published var patch: [Patch] = []
+    @Published var edit: Bool = false
     
     var network: NetworkManager
     

@@ -10,13 +10,18 @@ import SwiftUI
 
 struct PatchView: View {
     @Binding var data: Patch
+    @Binding var edit: Bool
     
+    
+    @ViewBuilder
     var body: some View {
         HStack(spacing: 0) {
-            Button {
-
-            } label: {
-                Image(systemName: "xmark")
+            if edit {
+                Button {
+                    
+                } label: {
+                    Image(systemName: "xmark")
+                }
             }
 
             Label("\(data.objectNumber)", systemImage: "")
@@ -37,9 +42,10 @@ struct PatchView: View {
 
 struct PatchViewExample: View {
     @State var myText = Patch(objectNumber: 42)
+    @State var edit = true
 
     var body: some View {
-        PatchView(data: $myText)
+        PatchView(data: $myText, edit: $edit)
     }
 }
 
